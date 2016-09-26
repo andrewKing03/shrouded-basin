@@ -1,0 +1,20 @@
+{
+    "name": "shrouded-basin",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "3.1.0",
+        "mongoose": "latest",
+        "basic-auth": "^1.0.4",
+        "bower": "latest"
+    },
+    "engines":{
+        "node":"0.8.x",
+        "npm":"1.1.x"
+    },
+    "scripts":{
+        "start": "node app.js",
+        "postinstall": "./node_modules/bower/bin/bower install lumx"
+    }
+    
+}
