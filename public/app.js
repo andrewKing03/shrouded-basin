@@ -44,3 +44,4 @@ controller('MainCtrl', function($rootScope, $scope, $http) {
     return [year, month, day].join('-');
   }
 });
+
