@@ -1443,6 +1443,20 @@
 					}
 
 
+		    #contentBox {
+				margin: 0px auto;
+				width: 90%;
+			}
+			
+			 .column2 {
+				float: right;
+				width: 45%;
+			}
+
+			.column1 {
+				float: left;
+				width: 45%;
+			}
 		/* Footer */
 
 			#footer {
@@ -1450,6 +1464,9 @@
 				padding: 2em 0 0 0;
 				font-size: 0.75em;
 			}
+.center {
+	margin: 0 auto;
+} 
 
 	}
 
@@ -1545,6 +1562,14 @@
 						display: none;
 					}
 
+
+
+		
+		
+		
+		
+		
+		
 		/* Panels */
 
 			#main {
@@ -1571,6 +1596,7 @@
 				#me .pic img {
 					display: block;
 					width: 100%;
+					padding-left: 15%;
 				}
 
 				#me .pic .arrow {
@@ -1590,6 +1616,15 @@
 					font-size: 1.25em;
 				}
 
+			#contentBox {
+				margin: 0px auto;
+				width: 90%;
+			}
+
+			.column1 {
+				float: left;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -1605,5 +1640,10 @@
 					#footer .copyright li:before {
 						display: none;
 					}
+
+	.center {
+		margin: 0 0;
+	}
+} 
 
 	}
